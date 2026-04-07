@@ -4,6 +4,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "L01_StandardIO", "L01_Stand
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "L02_Variable", "L02_Variable\L02_Variable.vcxproj", "{22D772E5-585B-4F95-B5D6-85A07D10B51C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AITest", "AITest\AITest.vcxproj", "{0F7C419B-1D49-40D2-8768-72ECDA7C4BCD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "for_while_example", "for_while_example\for_while_example.vcxproj", "{7C8F9F6C-A81E-4C5C-98F9-FDB600077DB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{22D772E5-585B-4F95-B5D6-85A07D10B51C}.Debug|Any CPU.Build.0 = Debug|Win32
 		{22D772E5-585B-4F95-B5D6-85A07D10B51C}.Release|Any CPU.ActiveCfg = Release|Win32
 		{22D772E5-585B-4F95-B5D6-85A07D10B51C}.Release|Any CPU.Build.0 = Release|Win32
+		{0F7C419B-1D49-40D2-8768-72ECDA7C4BCD}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{0F7C419B-1D49-40D2-8768-72ECDA7C4BCD}.Debug|Any CPU.Build.0 = Debug|Win32
+		{0F7C419B-1D49-40D2-8768-72ECDA7C4BCD}.Release|Any CPU.ActiveCfg = Release|Win32
+		{0F7C419B-1D49-40D2-8768-72ECDA7C4BCD}.Release|Any CPU.Build.0 = Release|Win32
+		{7C8F9F6C-A81E-4C5C-98F9-FDB600077DB9}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{7C8F9F6C-A81E-4C5C-98F9-FDB600077DB9}.Debug|Any CPU.Build.0 = Debug|Win32
+		{7C8F9F6C-A81E-4C5C-98F9-FDB600077DB9}.Release|Any CPU.ActiveCfg = Release|Win32
+		{7C8F9F6C-A81E-4C5C-98F9-FDB600077DB9}.Release|Any CPU.Build.0 = Release|Win32
 	EndGlobalSection
 EndGlobal
