@@ -8,6 +8,28 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AITest", "AITest\AITest.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "for_while_example", "for_while_example\for_while_example.vcxproj", "{7C8F9F6C-A81E-4C5C-98F9-FDB600077DB9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "double_for", "double_for\double_for.vcxproj", "{60D48E74-2D5D-40C8-8A93-357E477AEFC3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "function_example", "function_example\function_example.vcxproj", "{0EB45621-0A94-43AD-8338-2EFB0C5EC3C5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "memory_example", "memory_example\memory_example.vcxproj", "{22B79C6E-2840-490B-8E1B-83FFD65662E9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcxproj", "{A10166C4-5489-4422-88DA-7153583FFFF8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myHeaderTest", "myHeaderTest\myHeaderTest.vcxproj", "{6FACCEA4-DF0D-4178-989C-8E1FC72A439D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Scope_example", "Scope_example\Scope_example.vcxproj", "{2244DB30-3635-4ABF-B352-17D6396951AA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "array_example", "array_example\array_example.vcxproj", "{DDCE1566-48DA-437F-BCFF-C84CA0592470}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "array_example_2", "array_example_2\array_example_2.vcxproj", "{312A4944-207E-4461-8BAD-B20348F4C631}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "structure_example", "structure_example\structure_example.vcxproj", "{B4EC5520-977F-4A95-A487-98B5A6162447}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "structure_pointer_example", "structure_pointer_example\structure_pointer_example.vcxproj", "{F1BF9CB1-6963-4740-934C-60CB4EC879DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dynamic_memory_allocation", "dynamic_memory_allocation\dynamic_memory_allocation.vcxproj", "{BF328FD6-134B-4CAE-9249-9ABF58AD25AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +52,49 @@ Global
 		{7C8F9F6C-A81E-4C5C-98F9-FDB600077DB9}.Debug|Any CPU.Build.0 = Debug|Win32
 		{7C8F9F6C-A81E-4C5C-98F9-FDB600077DB9}.Release|Any CPU.ActiveCfg = Release|Win32
 		{7C8F9F6C-A81E-4C5C-98F9-FDB600077DB9}.Release|Any CPU.Build.0 = Release|Win32
+		{60D48E74-2D5D-40C8-8A93-357E477AEFC3}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{60D48E74-2D5D-40C8-8A93-357E477AEFC3}.Debug|Any CPU.Build.0 = Debug|Win32
+		{60D48E74-2D5D-40C8-8A93-357E477AEFC3}.Release|Any CPU.ActiveCfg = Release|Win32
+		{60D48E74-2D5D-40C8-8A93-357E477AEFC3}.Release|Any CPU.Build.0 = Release|Win32
+		{0EB45621-0A94-43AD-8338-2EFB0C5EC3C5}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{0EB45621-0A94-43AD-8338-2EFB0C5EC3C5}.Debug|Any CPU.Build.0 = Debug|Win32
+		{0EB45621-0A94-43AD-8338-2EFB0C5EC3C5}.Release|Any CPU.ActiveCfg = Release|Win32
+		{0EB45621-0A94-43AD-8338-2EFB0C5EC3C5}.Release|Any CPU.Build.0 = Release|Win32
+		{22B79C6E-2840-490B-8E1B-83FFD65662E9}.Release|Any CPU.ActiveCfg = Release|Win32
+		{22B79C6E-2840-490B-8E1B-83FFD65662E9}.Release|Any CPU.Build.0 = Release|Win32
+		{22B79C6E-2840-490B-8E1B-83FFD65662E9}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{22B79C6E-2840-490B-8E1B-83FFD65662E9}.Debug|Any CPU.Build.0 = Debug|Win32
+		{A10166C4-5489-4422-88DA-7153583FFFF8}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{A10166C4-5489-4422-88DA-7153583FFFF8}.Debug|Any CPU.Build.0 = Debug|Win32
+		{A10166C4-5489-4422-88DA-7153583FFFF8}.Release|Any CPU.ActiveCfg = Release|Win32
+		{A10166C4-5489-4422-88DA-7153583FFFF8}.Release|Any CPU.Build.0 = Release|Win32
+		{6FACCEA4-DF0D-4178-989C-8E1FC72A439D}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{6FACCEA4-DF0D-4178-989C-8E1FC72A439D}.Debug|Any CPU.Build.0 = Debug|Win32
+		{6FACCEA4-DF0D-4178-989C-8E1FC72A439D}.Release|Any CPU.ActiveCfg = Release|Win32
+		{6FACCEA4-DF0D-4178-989C-8E1FC72A439D}.Release|Any CPU.Build.0 = Release|Win32
+		{2244DB30-3635-4ABF-B352-17D6396951AA}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{2244DB30-3635-4ABF-B352-17D6396951AA}.Debug|Any CPU.Build.0 = Debug|Win32
+		{2244DB30-3635-4ABF-B352-17D6396951AA}.Release|Any CPU.ActiveCfg = Release|Win32
+		{2244DB30-3635-4ABF-B352-17D6396951AA}.Release|Any CPU.Build.0 = Release|Win32
+		{DDCE1566-48DA-437F-BCFF-C84CA0592470}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{DDCE1566-48DA-437F-BCFF-C84CA0592470}.Debug|Any CPU.Build.0 = Debug|Win32
+		{DDCE1566-48DA-437F-BCFF-C84CA0592470}.Release|Any CPU.ActiveCfg = Release|Win32
+		{DDCE1566-48DA-437F-BCFF-C84CA0592470}.Release|Any CPU.Build.0 = Release|Win32
+		{312A4944-207E-4461-8BAD-B20348F4C631}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{312A4944-207E-4461-8BAD-B20348F4C631}.Debug|Any CPU.Build.0 = Debug|Win32
+		{312A4944-207E-4461-8BAD-B20348F4C631}.Release|Any CPU.ActiveCfg = Release|Win32
+		{312A4944-207E-4461-8BAD-B20348F4C631}.Release|Any CPU.Build.0 = Release|Win32
+		{B4EC5520-977F-4A95-A487-98B5A6162447}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{B4EC5520-977F-4A95-A487-98B5A6162447}.Debug|Any CPU.Build.0 = Debug|Win32
+		{B4EC5520-977F-4A95-A487-98B5A6162447}.Release|Any CPU.ActiveCfg = Release|Win32
+		{B4EC5520-977F-4A95-A487-98B5A6162447}.Release|Any CPU.Build.0 = Release|Win32
+		{F1BF9CB1-6963-4740-934C-60CB4EC879DD}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{F1BF9CB1-6963-4740-934C-60CB4EC879DD}.Debug|Any CPU.Build.0 = Debug|Win32
+		{F1BF9CB1-6963-4740-934C-60CB4EC879DD}.Release|Any CPU.ActiveCfg = Release|Win32
+		{F1BF9CB1-6963-4740-934C-60CB4EC879DD}.Release|Any CPU.Build.0 = Release|Win32
+		{BF328FD6-134B-4CAE-9249-9ABF58AD25AF}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{BF328FD6-134B-4CAE-9249-9ABF58AD25AF}.Debug|Any CPU.Build.0 = Debug|Win32
+		{BF328FD6-134B-4CAE-9249-9ABF58AD25AF}.Release|Any CPU.ActiveCfg = Release|Win32
+		{BF328FD6-134B-4CAE-9249-9ABF58AD25AF}.Release|Any CPU.Build.0 = Release|Win32
 	EndGlobalSection
 EndGlobal
