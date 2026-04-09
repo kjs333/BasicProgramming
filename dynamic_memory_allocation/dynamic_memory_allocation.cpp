@@ -1,4 +1,12 @@
 #include <cstdio>
+#define SAFE_DELETE(p) if (p) { delete p; p = nullptr; }
+#define SAFE_DELETE_ARRAY(p) if (p) { delete[] p; p = nullptr; }
+#define SAFE_DELETE_AND_PRINT(KK) \
+    {SAFE_DELETE(KK) }\
+    {printf("메모리 해제 완료\n");}
+
+#ifdef _DEBUG
+#endif
 
 int main() {
     printf("=== Dynamic Memory Allocation with nullptr Check ===\n\n");
@@ -11,8 +19,10 @@ int main() {
         *ptr = 42;
         printf("Value: %d\n", *ptr);
         printf("Address: %p\n", (void*)ptr);
-        delete ptr;
-        ptr = nullptr;
+        //delete ptr;
+        //ptr = nullptr;
+        SAFE_DELETE_AND_PRINT(ptr);
+        
         printf("Memory freed\n");
     } else {
         printf("Memory allocation failed!\n");
@@ -34,8 +44,10 @@ int main() {
             printf("%d ", arr[i]);
         }
         printf("\n");
-        delete[] arr;
-        arr = nullptr;
+        //delete[] arr;
+        //arr = nullptr;
+        SAFE_DELETE_ARRAY(arr);
+        
         printf("Array memory freed\n");
     } else {
         printf("Memory allocation failed!\n");

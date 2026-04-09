@@ -1,6 +1,6 @@
 
 #include "Person.h"
-#define MAX_PLAYER 8 // 매크로
+#define MAX_PLAYER 8 // 매크로 상수
 
 int main(int argc, char* argv[])
 {
