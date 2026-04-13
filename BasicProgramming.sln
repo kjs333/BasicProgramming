@@ -48,6 +48,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "virtual_function_example", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dynamic_and_function", "dynamic_and_function\dynamic_and_function.vcxproj", "{AE1158CA-2508-4B63-BA45-A1BC32051773}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "this_Pointer", "this_Pointer\this_Pointer.vcxproj", "{6E03D8BB-48D1-4414-B660-4CE6AEAC4AD4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "template_example", "template_example\template_example.vcxproj", "{6842B7D8-40AC-4E85-8E9B-EA941A1C5CEA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "const_example", "const_example\const_example.vcxproj", "{86241B29-8156-4C12-BBCB-5A3B304BCE9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -150,5 +156,17 @@ Global
 		{AE1158CA-2508-4B63-BA45-A1BC32051773}.Debug|Any CPU.Build.0 = Debug|Win32
 		{AE1158CA-2508-4B63-BA45-A1BC32051773}.Release|Any CPU.ActiveCfg = Release|Win32
 		{AE1158CA-2508-4B63-BA45-A1BC32051773}.Release|Any CPU.Build.0 = Release|Win32
+		{6E03D8BB-48D1-4414-B660-4CE6AEAC4AD4}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{6E03D8BB-48D1-4414-B660-4CE6AEAC4AD4}.Debug|Any CPU.Build.0 = Debug|Win32
+		{6E03D8BB-48D1-4414-B660-4CE6AEAC4AD4}.Release|Any CPU.ActiveCfg = Release|Win32
+		{6E03D8BB-48D1-4414-B660-4CE6AEAC4AD4}.Release|Any CPU.Build.0 = Release|Win32
+		{6842B7D8-40AC-4E85-8E9B-EA941A1C5CEA}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{6842B7D8-40AC-4E85-8E9B-EA941A1C5CEA}.Debug|Any CPU.Build.0 = Debug|Win32
+		{6842B7D8-40AC-4E85-8E9B-EA941A1C5CEA}.Release|Any CPU.ActiveCfg = Release|Win32
+		{6842B7D8-40AC-4E85-8E9B-EA941A1C5CEA}.Release|Any CPU.Build.0 = Release|Win32
+		{86241B29-8156-4C12-BBCB-5A3B304BCE9E}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{86241B29-8156-4C12-BBCB-5A3B304BCE9E}.Debug|Any CPU.Build.0 = Debug|Win32
+		{86241B29-8156-4C12-BBCB-5A3B304BCE9E}.Release|Any CPU.ActiveCfg = Release|Win32
+		{86241B29-8156-4C12-BBCB-5A3B304BCE9E}.Release|Any CPU.Build.0 = Release|Win32
 	EndGlobalSection
 EndGlobal
